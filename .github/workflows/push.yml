@@ -31,3 +31,4 @@ jobs:
         with:
           push: true
           tags: dreven/devops-for-programmers-project-74:latest
+          file: Dockerfile.production
