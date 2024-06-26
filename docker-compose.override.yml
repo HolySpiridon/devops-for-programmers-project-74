@@ -4,3 +4,5 @@ services:
       file: docker-compose.yml
       service: app
     command: make dev
+    volumes:
+      - ./app:/app
